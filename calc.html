@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src = 'calculator.js'> </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item input"><form name = "form"><input type="text" autocomplete="off" name = "textview"><output></output></output></form></div>
+        <div class="item clean" onclick="clean()">C</div>
+        <div class="item back" onclick="back()">&larr;</div>
+        <div class="item" onclick="add('+')">+</div>
+        <div class="item" onclick="add('-')">-</div>
+        <div class="item" onclick="add('*')">&times;</div>
+        <div class="item" onclick="add('/')">&divide;</div>
+        <div class="item" onclick = "add('7')">7</div>
+        <div class="item" onclick = "add('8')">8</div>
+        <div class="item" onclick = "add('9')">9</div>
+        <div class="item" onclick = "add('(')">(</div>
+        <div class="item" onclick = "add('4')">4</div>
+        <div class="item" onclick = "add('5')">5</div>
+        <div class="item" onclick = "add('6')">6</div>
+        <div class="item" onclick = "add(')')">)</div>
+        <div class="item" onclick = "add('1')">1</div>
+        <div class="item" onclick = "add('2')">2</div>
+        <div class="item" onclick = "add('3')">3</div>
+        <div class="item equal" onclick = 'equal()'>=</div>
+        <div class="item zero" onclick="add('0')">0</div>
+        <div class="item" onclick = "add('.')">.</div>
+    </div>
+
+</body>
+</html>
